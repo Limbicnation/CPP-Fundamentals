@@ -7,6 +7,8 @@
 
 void CalculateNumbers()
 {
+
+
 	int a = 7;
 	int b = 8;
 
@@ -18,12 +20,15 @@ void CalculateNumbers()
 
 int main()
 {
+
+	std::cout << "(a = 7 and b = 8)" << std::endl;
+
 	// ASCII representation of a turtle
 	std::cout << "        __      _" << std::endl;
 	std::cout << "       / _\\ ___| |_ ___ _ __ ___" << std::endl;
-	std::cout << "       \\ \\ / _ \\ __/ _ \\ '__/ __|" << std::endl;
-	std::cout << "       _\\ \\  __/ ||  __/ |  \\__ \\" << std::endl;
-	std::cout << "       \\__/\\___|\\__\\___|_|  |___/" << std::endl;
+	std::cout << R"(       \ \ / _ \ __/ _ \ '__/ __|)" << std::endl;
+	std::cout << R"(       _\ \  __/ ||  __/ |  \__ \)" << std::endl;
+	std::cout << R"(       \__/\___|\__\___|_|  |___/)" << std::endl;
 
 	std::cout << R"(
      _______
