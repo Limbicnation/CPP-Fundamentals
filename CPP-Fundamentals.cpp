@@ -1,4 +1,4 @@
-// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
+﻿// ConsoleApplication3.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
 #include <iostream>
@@ -18,6 +18,23 @@ void CalculateNumbers()
 
 int main()
 {
+	// ASCII representation of a turtle
+	std::cout << "        __      _" << std::endl;
+	std::cout << "       / _\\ ___| |_ ___ _ __ ___" << std::endl;
+	std::cout << "       \\ \\ / _ \\ __/ _ \\ '__/ __|" << std::endl;
+	std::cout << "       _\\ \\  __/ ||  __/ |  \\__ \\" << std::endl;
+	std::cout << "       \\__/\\___|\\__\\___|_|  |___/" << std::endl;
+
+	std::cout << R"(
+     _______
+    /       \
+   |         |
+   |  O   O  |
+   |    ∆    |
+   |   ---   |
+   |_________|
+)";
+
 	// floats are decimal numbers
 	float health = 100.0f;
 	float damage = 2.0f;
@@ -35,6 +52,8 @@ int main()
 	std::cout << "The multiplication of a and b is\n" << multiplication;
 
 	CalculateNumbers();
+
+	return 0;
 }
 
 
